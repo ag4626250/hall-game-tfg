@@ -56,7 +56,7 @@ SEQUENCE_SLOW_OFF_MS = 750
 
 PENDING_FEEDBACK_MS = 700
 
-DIGITO_OBTENIDO = 27  # Valor fijo para la prueba 2, según las especificaciones.
+DIGITO_OBTENIDO = 27  
 
 
 class Prueba2:

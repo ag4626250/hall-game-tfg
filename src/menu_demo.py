@@ -26,7 +26,7 @@ STATE_PLACEHOLDER = "placeholder"
 MODO_DESBLOQUEO_RAPIDO = True
 
 
-# Paleta temática: tonos cálidos, invitación antigua / boda / iglesia.
+# Paleta temática
 BACKGROUND_TOP = (65, 48, 40)
 BACKGROUND_BOTTOM = (154, 124, 88)
 
@@ -166,7 +166,7 @@ def draw_icon(screen, center, index, is_selected):
         pygame.draw.line(screen, color, (x, y - 23), (x, y - 6), width=2)
 
     elif index == 1:
-        # Candelabro / luces de iglesia
+        # Candelabro 
         pygame.draw.line(screen, color, (x, y - 5), (x, y + 15), width=3)
         pygame.draw.line(screen, color, (x - 16, y + 3), (x + 16, y + 3), width=3)
 
@@ -195,7 +195,7 @@ def draw_icon(screen, center, index, is_selected):
         pygame.draw.rect(screen, color, pygame.Rect(x - 10, y + 15, 20, 5), border_radius=3)
 
     elif index == 2:
-        # Bocadillo de diálogo / refranes
+        # Bocadillo de diálogo
         bubble_rect = pygame.Rect(x - 18, y - 12, 36, 24)
         pygame.draw.rect(screen, color, bubble_rect, width=3, border_radius=8)
         pygame.draw.polygon(screen, color, [(x - 5, y + 11), (x - 13, y + 21), (x + 3, y + 12)])
