@@ -39,7 +39,7 @@ MCP23017_ADDRESS = 0x27
 
 # Cambiar estos valores por el número real de bancos y vidrieras de la iglesia.
 NUM_BANCOS = 6
-NUM_VIDRIERAS = 8
+NUM_VIDRIERAS = 9
 
 DIGITO_OBTENIDO = 9
 
